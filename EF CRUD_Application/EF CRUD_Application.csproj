@@ -161,9 +161,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdoCrudOperations.cs" />
+    <Compile Include="ConcreateOperation.cs" />
+    <Compile Include="CrudOperationsFactory.cs" />
     <Compile Include="Data\AppDbContext.cs" />
-    <Compile Include="EFCrudOperations.cs" />
+    <Compile Include="ICrudOperations.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

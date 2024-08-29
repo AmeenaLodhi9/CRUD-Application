@@ -17,93 +17,48 @@ namespace EF_CRUD_Application
                 Console.Write("Choose an option: ");
 
                 var choice = Console.ReadLine();
-                switch (choice)
+                if (choice == "3") return;
+
+                ICrudOperations crudOperations = CrudOperationsFactory.GetCrudOperations(choice);
+
+                while (true)
                 {
-                    case "1":
-                        CrudWithEF();
-                        break;
-                    case "2":
-                        CrudWithAdoNet();
-                        break;
-                    case "3":
-                        return;
-                    default:
-                        Console.WriteLine("Invalid option. Please try again.");
-                        break;
-                }
-            }
-        }
+                    Console.WriteLine("\n--- CRUD Operations ---");
+                    Console.WriteLine("1. Create a new product");
+                    Console.WriteLine("2. Read all products");
+                    Console.WriteLine("3. Update a product");
+                    Console.WriteLine("4. Delete a product");
+                    Console.WriteLine("5. Back to main menu");
+                    Console.Write("Choose an option: ");
 
-        static void CrudWithEF()
-        {
-            while (true)
-            {
-                Console.WriteLine("\n--- CRUD Operations with Entity Framework ---");
-                Console.WriteLine("1. Create a new product");
-                Console.WriteLine("2. Read all products");
-                Console.WriteLine("3. Update a product");
-                Console.WriteLine("4. Delete a product");
-                Console.WriteLine("5. Back to main menu");
-                Console.Write("Choose an option: ");
+                    var input = Console.ReadLine();
+                    switch (input)
+                    {
+                        case "1":
+                            crudOperations.CreateProduct();
+                            break;
+                        case "2":
+                            crudOperations.ReadProducts();
+                            break;
+                        case "3":
+                            crudOperations.UpdateProduct();
+                            break;
+                        case "4":
+                            crudOperations.DeleteProduct();
+                            break;
+                        case "5":
+                            break;
+                        default:
+                            Console.WriteLine("Invalid option. Please try again.");
+                            break;
+                    }
 
-                var input = Console.ReadLine();
-                switch (input)
-                {
-                    case "1":
-                        EFCrudOperations.CreateProduct();
-                        break;
-                    case "2":
-                        EFCrudOperations.ReadProducts();
-                        break;
-                    case "3":
-                        EFCrudOperations.UpdateProduct();
-                        break;
-                    case "4":
-                        EFCrudOperations.DeleteProduct();
-                        break;
-                    case "5":
-                        return;
-                    default:
-                        Console.WriteLine("Invalid option. Please try again.");
-                        break;
-                }
-            }
-        }
-
-        static void CrudWithAdoNet()
-        {
-            while (true)
-            {
-                Console.WriteLine("\n--- CRUD Operations with ADO.NET ---");
-                Console.WriteLine("1. Create a new product");
-                Console.WriteLine("2. Read all products");
-                Console.WriteLine("3. Update a product");
-                Console.WriteLine("4. Delete a product");
-                Console.WriteLine("5. Back to main menu");
-                Console.Write("Choose an option: ");
-
-                var input = Console.ReadLine();
-                switch (input)
-                {
-                    case "1":
-                        AdoCrudOperations.CreateProduct();
-                        break;
-                    case "2":
-                        AdoCrudOperations.ReadProducts();
-                        break;
-                    case "3":
-                        AdoCrudOperations.UpdateProduct();
-                        break;
-                    case "4":
-                        AdoCrudOperations.DeleteProduct();
-                        break;
-                    case "5":
-                        return;
-                    default:
-                        Console.WriteLine("Invalid option. Please try again.");
-                        break;
+                    if (input == "5") break;
                 }
             }
         }
     }
+
+
+
 }
