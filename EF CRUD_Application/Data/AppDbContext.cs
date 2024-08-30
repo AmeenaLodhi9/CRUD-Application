@@ -14,6 +14,7 @@ namespace EF_CRUD_Application.Data
     public class AppDbContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
+        public DbSet<Log> Logs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -40,6 +41,14 @@ namespace EF_CRUD_Application.Data
                       .HasColumnName("prod_price") // Maps to prod_price
 
                       .HasColumnType("int");
+            });
+            modelBuilder.Entity<Log>(entity =>
+            {
+                entity.ToTable("Logs");
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Message).IsRequired();
+                entity.Property(e => e.StackTrace).IsRequired();
+                entity.Property(e => e.CurrentTime).IsRequired();
             });
         }
     }

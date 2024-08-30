@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static EF_CRUD_Application.EFCrudOperations;
 
 namespace EF_CRUD_Application
@@ -11,16 +7,29 @@ namespace EF_CRUD_Application
     {
         public static ICrudOperations GetCrudOperations(string choice)
         {
-            switch (choice)
+            try
             {
-                case "1":
-                    return new EFCrudOperations();
-                case "2":
-                    return new AdoCrudOperations();
-                default:
-                    throw new ArgumentException("Invalid choice");
+                ICrudOperations crudOperations;
+                switch (choice)
+                {
+                    case "1":
+                        crudOperations = new EFCrudOperations();
+                        break;
+                    case "2":
+                        crudOperations = new AdoCrudOperations();
+                        break;
+                    default:
+                        throw new ArgumentException("Invalid choice");
+                }
+
+                Logger.Log("CRUD operation selected successfully", string.Empty);
+                return crudOperations;
+            }
+            catch (Exception ex)
+            {
+                Logger.Log(ex.Message, ex.ToString());
+                throw; // Re-throw the exception to let it propagate
             }
         }
     }
-
 }

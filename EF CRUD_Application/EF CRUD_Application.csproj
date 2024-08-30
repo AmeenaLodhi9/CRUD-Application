@@ -165,6 +165,7 @@
     <Compile Include="CrudOperationsFactory.cs" />
     <Compile Include="Data\AppDbContext.cs" />
     <Compile Include="ICrudOperations.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
