@@ -4,9 +4,30 @@ using System;
 
 namespace EF_CRUD_Application
 {
-    public static class Logger
+    public class Logger
     {
-        public static void Log(string message, string stackTrace)
+        private static readonly Logger _instance = new Logger();
+        private static readonly object _lock = new object(); // For thread-safety
+
+        // Private constructor to prevent direct instantiation
+        private Logger()
+        {
+            // Initialization code if needed
+        }
+
+        // Public property to access the singleton instance
+        public static Logger Instance
+        {
+            get
+            {
+                lock (_lock)
+                {
+                    return _instance;
+                }
+            }
+        }
+
+        public void Log(string message, string stackTrace)
         {
             using (var context = new AppDbContext())
             {

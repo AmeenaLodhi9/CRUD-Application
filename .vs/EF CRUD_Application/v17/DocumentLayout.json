@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\crudoperationsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\efcrudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\efcrudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|c:\\users\\hp\\source\\repos\\ef crud_application\\ef crud_application\\crudoperationsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\crudoperationsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\unityconfig .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\unityconfig .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\concreateoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\concreateoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\adocrudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\adocrudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|c:\\users\\hp\\source\\repos\\ef crud_application\\ef crud_application\\icrudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\icrudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\icrudoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|c:\\users\\hp\\source\\repos\\ef crud_application\\ef crud_application\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\ef crud_application\\concreateoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A7ABCE-074A-4B10-9440-88703E214087}|EF CRUD_Application\\EF CRUD_Application.csproj|solutionrelative:ef crud_application\\concreateoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,26 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICrudOperations.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\ICrudOperations.cs",
-              "RelativeDocumentMoniker": "EF CRUD_Application\\ICrudOperations.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\ICrudOperations.cs",
-              "RelativeToolTip": "EF CRUD_Application\\ICrudOperations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T07:37:44.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CrudOperationsFactory.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\CrudOperationsFactory.cs",
               "RelativeDocumentMoniker": "EF CRUD_Application\\CrudOperationsFactory.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\CrudOperationsFactory.cs",
               "RelativeToolTip": "EF CRUD_Application\\CrudOperationsFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T11:03:43.209Z",
               "EditorCaption": ""
@@ -73,38 +64,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "EF CRUD_Application\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Models\\Product.cs",
-              "RelativeToolTip": "EF CRUD_Application\\Models\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Title": "UnityConfig .cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\UnityConfig .cs",
+              "RelativeDocumentMoniker": "EF CRUD_Application\\UnityConfig .cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\UnityConfig .cs",
+              "RelativeToolTip": "EF CRUD_Application\\UnityConfig .cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:43:28.313Z",
+              "WhenOpened": "2024-08-30T11:19:57.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConcreateOperation.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\ConcreateOperation.cs",
-              "RelativeDocumentMoniker": "EF CRUD_Application\\ConcreateOperation.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\ConcreateOperation.cs",
-              "RelativeToolTip": "EF CRUD_Application\\ConcreateOperation.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAALMAAABLAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Logger.cs",
+              "RelativeDocumentMoniker": "EF CRUD_Application\\Logger.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Logger.cs",
+              "RelativeToolTip": "EF CRUD_Application\\Logger.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T09:37:34.942Z",
+              "WhenOpened": "2024-08-29T12:50:17.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EFCrudOperations.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\EFCrudOperations.cs",
+              "RelativeDocumentMoniker": "EF CRUD_Application\\EFCrudOperations.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\EFCrudOperations.cs",
+              "RelativeToolTip": "EF CRUD_Application\\EFCrudOperations.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T11:41:46.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Program.cs",
               "RelativeDocumentMoniker": "EF CRUD_Application\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Program.cs",
               "RelativeToolTip": "EF CRUD_Application\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAACPAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAArwEIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T08:00:59.425Z",
               "EditorCaption": ""
@@ -112,27 +116,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EF CRUD_Application\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "EF CRUD_Application\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwDMAAAAPAAAAAAAAAA==",
+              "Title": "AdoCrudOperations.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\AdoCrudOperations.cs",
+              "RelativeDocumentMoniker": "EF CRUD_Application\\AdoCrudOperations.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\AdoCrudOperations.cs",
+              "RelativeToolTip": "EF CRUD_Application\\AdoCrudOperations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:45:39.228Z",
+              "WhenOpened": "2024-08-30T11:42:11.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Logger.cs",
-              "RelativeDocumentMoniker": "EF CRUD_Application\\Logger.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\Logger.cs",
-              "RelativeToolTip": "EF CRUD_Application\\Logger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAsAAAAAAAAAA==",
+              "Title": "ICrudOperations.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\ICrudOperations.cs",
+              "RelativeDocumentMoniker": "EF CRUD_Application\\ICrudOperations.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\ICrudOperations.cs",
+              "RelativeToolTip": "EF CRUD_Application\\ICrudOperations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T12:50:17.608Z",
+              "WhenOpened": "2024-08-30T07:37:44.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConcreateOperation.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\ConcreateOperation.cs",
+              "RelativeDocumentMoniker": "EF CRUD_Application\\ConcreateOperation.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\EF CRUD_Application\\EF CRUD_Application\\ConcreateOperation.cs",
+              "RelativeToolTip": "EF CRUD_Application\\ConcreateOperation.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T09:37:34.942Z",
               "EditorCaption": ""
             }
           ]

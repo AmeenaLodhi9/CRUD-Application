@@ -1,33 +1,29 @@
 ﻿using System;
-using static EF_CRUD_Application.EFCrudOperations;
+using Unity;
 
 namespace EF_CRUD_Application
 {
     public static class CrudOperationsFactory
     {
-        public static ICrudOperations GetCrudOperations(string choice)
+        public static ICrudOperations GetCrudOperations(string choice, IUnityContainer container)
         {
             try
             {
-                ICrudOperations crudOperations;
                 switch (choice)
                 {
                     case "1":
-                        crudOperations = new EFCrudOperations();
-                        break;
+                        Logger.Instance.Log("Entity Framework CRUD operation selected successfully", string.Empty);
+                        return container.Resolve<ICrudOperations>("EF");
                     case "2":
-                        crudOperations = new AdoCrudOperations();
-                        break;
+                        Logger.Instance.Log("ADO.NET CRUD operation selected successfully", string.Empty);
+                        return container.Resolve<ICrudOperations>("ADO");
                     default:
-                        throw new ArgumentException("Invalid choice");
+                        throw new ArgumentException($"Invalid choice: {choice}", nameof(choice));
                 }
-
-                Logger.Log("CRUD operation selected successfully", string.Empty);
-                return crudOperations;
             }
             catch (Exception ex)
             {
-                Logger.Log(ex.Message, ex.ToString());
+                Logger.Instance.Log("Error resolving CRUD operations", ex.ToString());
                 throw; // Re-throw the exception to let it propagate
             }
         }

@@ -1,13 +1,17 @@
-﻿using EF_CRUD_Application.Data;
-using EF_CRUD_Application.Models;
-using System;
+﻿using System;
+using Unity;
 
 namespace EF_CRUD_Application
 {
     internal class Program
     {
+        private static IUnityContainer _container;
+
         static void Main(string[] args)
         {
+            // Use UnityConfig to configure the container
+            _container = UnityConfig.Container;
+
             while (true)
             {
                 try
@@ -23,13 +27,15 @@ namespace EF_CRUD_Application
                     if (choice == "3")
                     {
                         Console.WriteLine("Exiting the application.");
+                        Console.ReadLine();
+                        Logger.Instance.Log("Exiting the application.", string.Empty);
+
+
+
                         break;
                     }
 
-                    // Log the user's choice
-                    Logger.Log("User chose option: " + (choice == "1" ? "Entity Framework" : choice == "2" ? "ADO.NET" : "Invalid Choice"), "");
-
-                    ICrudOperations crudOperations = CrudOperationsFactory.GetCrudOperations(choice);
+                    ICrudOperations crudOperations = CrudOperationsFactory.GetCrudOperations(choice, _container);
 
                     while (true)
                     {
@@ -57,6 +63,9 @@ namespace EF_CRUD_Application
                                 crudOperations.DeleteProduct();
                                 break;
                             case "5":
+
+                                Logger.Instance.Log("Back to the main menu", string.Empty);
+
                                 break;
                             default:
                                 Console.WriteLine("Invalid option. Please try again.");
@@ -65,18 +74,16 @@ namespace EF_CRUD_Application
 
                         if (input == "5") break;
                     }
-
                 }
                 catch (ArgumentException ex)
                 {
                     Console.WriteLine(ex.Message);
-                    // Log and allow retry
-                    Logger.Log("ArgumentException: " + ex.Message, ex.StackTrace);
+                    Logger.Instance.Log("ArgumentException: " + ex.Message, ex.StackTrace);
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("An unexpected error occurred. The application will now close.");
-                    Logger.Log(ex.Message, ex.ToString());
+                    Logger.Instance.Log(ex.Message, ex.ToString());
                     break; // Exit the loop and terminate the application
                 }
             }

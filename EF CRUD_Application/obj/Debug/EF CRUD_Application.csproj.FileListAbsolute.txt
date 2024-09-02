@@ -86,3 +86,7 @@ C:\Users\HP\source\repos\EF CRUD_Application\EF CRUD_Application\obj\Debug\EF CR
 C:\Users\HP\source\repos\EF CRUD_Application\EF CRUD_Application\obj\Debug\EF CRUD_Application.pdb
 C:\Users\HP\source\repos\EF CRUD_Application\EF CRUD_Application\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\HP\source\repos\EF CRUD_Application\EF CRUD_Application\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\HP\source\repos\EF CRUD_Application\EF CRUD_Application\bin\Debug\Unity.Abstractions.dll
+C:\Users\HP\source\repos\EF CRUD_Application\EF CRUD_Application\bin\Debug\Unity.Container.dll
+C:\Users\HP\source\repos\EF CRUD_Application\EF CRUD_Application\bin\Debug\Unity.Abstractions.pdb
+C:\Users\HP\source\repos\EF CRUD_Application\EF CRUD_Application\bin\Debug\Unity.Container.pdb
